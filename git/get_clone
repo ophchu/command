@@ -1,3 +1,5 @@
 Clone: git clone https://github.com/ophchu/command.git
 git add file.txt 	#Adding file.txt to the list of files to be commited
 git commit 	#commit (locally! the files that added)
+git remote add command https://github.com/ophchu/command.git #Add remote repo named command
+git push command master #Push commited data into command branch - master
