@@ -1,0 +1,4 @@
+git remote add --track master budo https://github.com/budowski/budoist.git #Add remote branch to the origin
+git remote #Check that the remote added
+git fetch budo #Fetch the origin	
+git merge budo/master #Merge the origin into the current
